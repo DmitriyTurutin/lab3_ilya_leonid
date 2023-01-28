@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+  }
+  
+  #username {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #logo {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px;
+    border: #fff 1px solid;
+  }
+  
+  #startups-section {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  #startups-title {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .startup-card {
+    background-color: #444;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .startup-name {
+    margin-bottom: 10px;
+  }
+  
+  .startup-revenue {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .startup-description {
+    margin-bottom: 10px;
+  }
+  
+  .startup-info-button {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .startup-info-button:hover {
+    background-color: #00bfff;
+  }
+  
+  .dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 90;
+}
